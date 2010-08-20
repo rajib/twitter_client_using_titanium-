@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ti:app xmlns:ti='http://ti.appcelerator.org'>
+<!-- These values are edited/maintained by Titanium Developer -->
+<id>myapp</id>
+<name>myapp</name>
+<version>1.0</version>
+<publisher>rajib</publisher>
+<url>www.example.com</url>
+<icon>default_app_logo.png</icon>
+<copyright>2010 by rajib</copyright>
+<!-- Window Definition - these values can be edited -->
+<window>
+<id>initial</id>
+<title>Twitter app</title>
+<url>app://index.html</url>
+<width>400</width>
+<height>200</height>
+<fullscreen>false</fullscreen>
+<resizable>false</resizable>
+<chrome scrollbars="true">true</chrome>
+<maximizable>false</maximizable>
+<minimizable>true</minimizable>
+<closeable>true</closeable>
+</window>
+</ti:app>

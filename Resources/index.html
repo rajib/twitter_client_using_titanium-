@@ -1,0 +1,35 @@
+<html>
+<head>
+  <script type="text/javascript" src="jquery-1.3.2.js" charset="utf-8"></script>
+  <script type="text/javascript" src="custom.js" charset="utf-8"></script>
+  <script type="text/javascript" src="base64.js" charset="utf-8"></script>
+  <script type="text/javascript" src="jquery.form.js" charset="utf-8"></script>
+</head>
+<body style="margin:0">
+  <div id="main">
+    <div id="loginForm" class="span-10 mLeft45">
+      <div id="loginFormContainer">
+        <fieldset>
+          <legend>Sign in to Twitter</legend>
+          <p>
+            <label for="username">Username or email</label><br>
+            <input type="text" id="username" name="username" class="title">
+          </p>
+          <p>
+            <label for="password">Password</label><br>
+            <input type="password" name="password" id="password" class="title">
+          </p>
+          <input type="submit" value="Submit" onclick="Twitter.login();">
+        </fieldset>
+      </div>
+    </div>
+    <div id="loggedInBlock" style="display:none">
+      <form method="post" id="statusUpdateForm" action="#">
+        <strong class="mLeft20">What&rsquo;s happening?</strong><br>
+        <textarea tabindex="1" autocomplete="off" accesskey="u" name="status" id="statusUpdateInput"class="w440 ht50 mLeft20"></textarea><br>
+        <input type="submit" tabindex="2" class="mLeft20" id="updateSubmit" value="update" name="update" disabled="true">
+      </form>
+    </div>
+  </div>
+</body>
+</html>
